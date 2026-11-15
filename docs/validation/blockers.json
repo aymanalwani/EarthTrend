@@ -1,0 +1,144 @@
+{
+ "checked_utc": "2026-11-15T10:43:54Z",
+ "A2": {
+  "documentation": "GSOD readme (ncei.noaa.gov/data/global-summary-of-the-day/doc/readme.txt, 10/28/2020): csv header 'TEMP - Mean temperature (.1 Fahrenheit)', missing 9999.9, GMT day 0000Z-2359Z.",
+  "july_mean_TEMP_raw_units": {
+   "Marka": 80.85564516129033,
+   "Queen Alia": 78.99847198641766,
+   "Aqaba": 94.01854838709677,
+   "King Hussein": 79.23710801393727
+  },
+  "plausibility": "Jordan July means must exceed 60 if in F (about 15.6 C); Celsius values would be 20-35.",
+  "resolved": true
+ },
+ "A3": {
+  "evidence": "header.sources lists the products present in the requested span (probe 2026-11-15: 20260801-20261110 returned ['MERRA2', 'GEOSIT']; 20241201-20241231 ['MERRA2']).",
+  "responses": {
+   "Marka": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   },
+   "Queen Alia": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   },
+   "Aqaba": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   },
+   "King Hussein": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   },
+   "Ma'an": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   },
+   "Ghor Safi": {
+    "sources": [
+     "MERRA2"
+    ],
+    "time_standard": "UTC",
+    "start": "20050101",
+    "end": "20241231",
+    "api_version": "v2.10.3"
+   }
+  },
+  "resolved": true
+ },
+ "A10": {
+  "checks": [
+   {
+    "date": "20100115",
+    "daily_utc": 10.31,
+    "hourly_mean": 10.305833333333334,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.00416666666666643
+   },
+   {
+    "date": "20100415",
+    "daily_utc": 19.69,
+    "hourly_mean": 19.68625,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.003750000000000142
+   },
+   {
+    "date": "20100715",
+    "daily_utc": 26.44,
+    "hourly_mean": 26.4375,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.002500000000001279
+   },
+   {
+    "date": "20101015",
+    "daily_utc": 25.8,
+    "hourly_mean": 25.800416666666667,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.0004166666666662877
+   },
+   {
+    "date": "20200115",
+    "daily_utc": 9.75,
+    "hourly_mean": 9.751666666666667,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.0016666666666669272
+   },
+   {
+    "date": "20200415",
+    "daily_utc": 17.57,
+    "hourly_mean": 17.56625,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.003750000000000142
+   },
+   {
+    "date": "20200715",
+    "daily_utc": 28.56,
+    "hourly_mean": 28.56125,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.0012500000000024158
+   },
+   {
+    "date": "20201015",
+    "daily_utc": 22.14,
+    "hourly_mean": 22.142916666666668,
+    "n_hours": 24,
+    "hourly_time_standard": "UTC",
+    "abs_diff": 0.0029166666666675667
+   }
+  ],
+  "tolerance_C": 0.01,
+  "resolved": true
+ }
+}

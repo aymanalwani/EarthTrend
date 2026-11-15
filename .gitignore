@@ -1,0 +1,22 @@
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Raw data: only the NASA Giovanni exports are kept in the repository.
+# Station files (NOAA GSOD/GHCN-M, NASA POWER JSON) are re-downloaded by
+# scripts/validate_stations.py; GSOD non-US data must not be redistributed
+# (WMO Resolution 40).
+data/raw/*
+!data/raw/README.md
+!data/raw/giovanni/
+!data/raw/giovanni/*.csv
+
+data/processed/*
+!data/processed/*.csv

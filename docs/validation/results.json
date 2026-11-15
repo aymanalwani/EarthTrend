@@ -1,0 +1,415 @@
+{
+ "protocol_sha256_at_freeze": "3219d63c639bf676f2a8c043e28b66c616de71efac3c3f9d8221acb9f1705427",
+ "run_utc": "2026-11-15T10:43:59Z",
+ "blockers": "A2, A3, A10 resolved",
+ "power_returned_geometry": {
+  "Marka": [
+   35.992,
+   31.973,
+   732.69
+  ],
+  "Queen Alia": [
+   35.993,
+   31.723,
+   764.08
+  ],
+  "Aqaba": [
+   35.018,
+   29.612,
+   662.27
+  ],
+  "King Hussein": [
+   36.259,
+   32.356,
+   772.76
+  ]
+ },
+ "final_mask": {
+  "months_4": 207,
+  "months_3": 33,
+  "months_lt3": 0,
+  "valid_months": {
+   "Marka": 240,
+   "Queen Alia": 228,
+   "Aqaba": 240,
+   "King Hussein": 219
+  },
+  "composition_weights": {
+   "common": 0.9993433304570013,
+   "Marka": 0.25516134085213305,
+   "Queen Alia": 0.25397622345337295,
+   "Aqaba": 0.25516134085213305,
+   "King Hussein": 0.2350444252993621
+  }
+ },
+ "primary": {
+  "status": "inference_available",
+  "years": 20,
+  "slope_per_decade": 0.07929919948686412,
+  "ci_per_decade": [
+   -0.27939216492572266,
+   0.4379905638994509
+  ],
+  "p_value": 0.5866706664666766,
+  "significant": false,
+  "tested": true,
+  "notes": [],
+  "outcome": "Inconclusive",
+  "annual_ols_per_decade": 0.07928904505414791
+ },
+ "stations": {
+  "Marka": {
+   "status": "descriptive_only",
+   "years": 20,
+   "slope_per_decade": 0.017259578787368102,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: residual dependence beyond lag 1 was detected, which the significance methods used here do not model.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "annual_ols_per_decade": 0.017248818509526934,
+   "usable_years": 20,
+   "valid_months": 240,
+   "median_obs_per_day_by_year": {
+    "2005": 23.0,
+    "2006": 24.0,
+    "2007": 24.0,
+    "2008": 24.0,
+    "2009": 23.0,
+    "2010": 24.0,
+    "2011": 24.0,
+    "2012": 24.0,
+    "2013": 24.0,
+    "2014": 24.0,
+    "2015": 24.0,
+    "2016": 24.0,
+    "2017": 24.0,
+    "2018": 24.0,
+    "2019": 24.0,
+    "2020": 24.0,
+    "2021": 24.0,
+    "2022": 24.0,
+    "2023": 24.0,
+    "2024": 24.0
+   },
+   "pettitt_annual": {
+    "K": 29.0,
+    "p_approx": 1.0,
+    "candidate_year": 2014
+   },
+   "g_k": {
+    "min": -1.0111444697977015,
+    "max": 0.9047145250149566,
+    "mean": 0.004923999176182547,
+    "sd": 0.33848424263199095,
+    "implied_bias_bound_per_decade": 0.02730090068453794
+   },
+   "grid_elevation_m": 732.69
+  },
+  "Queen Alia": {
+   "status": "descriptive_only",
+   "years": 19,
+   "slope_per_decade": 0.2891500468655621,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: require regular sampling (gaps are allowed for monthly data), a specified seasonal policy, and at least 15 observations.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "annual_ols_per_decade": 0.2891394700056874,
+   "usable_years": 19,
+   "valid_months": 228,
+   "median_obs_per_day_by_year": {
+    "2005": 23.0,
+    "2006": 23.0,
+    "2007": 23.0,
+    "2008": 23.0,
+    "2009": 22.0,
+    "2010": 22.0,
+    "2011": 23.0,
+    "2012": 23.0,
+    "2013": null,
+    "2014": 23.0,
+    "2015": 22.0,
+    "2016": 22.0,
+    "2017": 24.0,
+    "2018": 24.0,
+    "2019": 24.0,
+    "2020": 24.0,
+    "2021": 24.0,
+    "2022": 24.0,
+    "2023": 24.0,
+    "2024": 24.0
+   },
+   "pettitt_annual": {
+    "K": 78.0,
+    "p_approx": 0.012742549920621188,
+    "candidate_year": 2011
+   },
+   "g_k": {
+    "min": -0.8212217409120417,
+    "max": 0.8472465843986213,
+    "mean": -0.005770577237904575,
+    "sd": 0.3213557923270354,
+    "implied_bias_bound_per_decade": 0.022875657778762777
+   },
+   "grid_elevation_m": 764.08
+  },
+  "Aqaba": {
+   "status": "inference_available",
+   "years": 20,
+   "slope_per_decade": -0.21940867386133778,
+   "ci_per_decade": [
+    -2.066311349745317,
+    1.6274940020226416
+   ],
+   "p_value": 0.6318544495476103,
+   "significant": false,
+   "tested": true,
+   "notes": [],
+   "annual_ols_per_decade": -0.2194313713643941,
+   "usable_years": 20,
+   "valid_months": 240,
+   "median_obs_per_day_by_year": {
+    "2005": 20.0,
+    "2006": 20.0,
+    "2007": 19.0,
+    "2008": 19.0,
+    "2009": 18.0,
+    "2010": 18.0,
+    "2011": 17.0,
+    "2012": 17.0,
+    "2013": 18.0,
+    "2014": 18.0,
+    "2015": 18.0,
+    "2016": 18.0,
+    "2017": 19.0,
+    "2018": 23.0,
+    "2019": 24.0,
+    "2020": 24.0,
+    "2021": 24.0,
+    "2022": 24.0,
+    "2023": 24.0,
+    "2024": 24.0
+   },
+   "pettitt_annual": {
+    "K": 75.0,
+    "p_approx": 0.035982953653316954,
+    "candidate_year": 2018
+   },
+   "g_k": {
+    "min": -1.989075730589597,
+    "max": 1.1212713067192013,
+    "mean": -0.021993044971928777,
+    "sd": 0.554657102910406,
+    "implied_bias_bound_per_decade": 0.05370504472591912
+   },
+   "grid_elevation_m": 662.27
+  },
+  "King Hussein": {
+   "status": "descriptive_only",
+   "years": 16,
+   "slope_per_decade": 0.240236600397449,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: require regular sampling (gaps are allowed for monthly data), a specified seasonal policy, and at least 15 observations.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "annual_ols_per_decade": 0.312970514270512,
+   "usable_years": 16,
+   "valid_months": 219,
+   "median_obs_per_day_by_year": {
+    "2005": 6.0,
+    "2006": 8.0,
+    "2007": 7.0,
+    "2008": 7.0,
+    "2009": 6.0,
+    "2010": 6.0,
+    "2011": 6.0,
+    "2012": 7.0,
+    "2013": 7.0,
+    "2014": null,
+    "2015": 8.0,
+    "2016": 8.0,
+    "2017": 8.0,
+    "2018": 8.0,
+    "2019": 8.0,
+    "2020": 7.0,
+    "2021": 7.0,
+    "2022": 7.0,
+    "2023": 8.0,
+    "2024": 8.0
+   },
+   "pettitt_annual": {
+    "K": 48.0,
+    "p_approx": 0.08346537467517898,
+    "candidate_year": 2009
+   },
+   "g_k": {
+    "min": -0.8469710195554657,
+    "max": 1.1067092012660236,
+    "mean": 0.022839623033650818,
+    "sd": 0.3763832373370096,
+    "implied_bias_bound_per_decade": 0.029881148434182637
+   },
+   "grid_elevation_m": 772.76
+  }
+ },
+ "disagreement": {
+  "slope_range": [
+   -0.21940867386133778,
+   0.312970514270512
+  ],
+  "n_positive": 3,
+  "n_negative": 1,
+  "tested_excluding_zero": [],
+  "stations_disagree": false
+ },
+ "C4": {
+  "app": {
+   "status": "descriptive_only",
+   "years": 15,
+   "slope_per_decade": 0.0785906909171955,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: require regular sampling (gaps are allowed for monthly data), a specified seasonal policy, and at least 15 observations.",
+    "Inference withheld: the annual test could not be carried out."
+   ]
+  },
+  "annual_ols_per_decade": 0.0885210005667514,
+  "usable_years": 15,
+  "delta_per_decade": -0.009231955512603487,
+  "sigma_m": 0.2590341265676486,
+  "sd_delta": 0.008807160303300053,
+  "within_sampling_spread": true
+ },
+ "leave_one_out": {
+  "Marka": {
+   "status": "inference_available",
+   "years": 20,
+   "slope_per_decade": 0.10200460074808995,
+   "ci_per_decade": [
+    -0.4243327644104582,
+    0.628341965906638
+   ],
+   "p_value": 0.6011699415029248,
+   "significant": false,
+   "tested": true,
+   "notes": [],
+   "change_from_primary": 0.022705401261225833,
+   "influential": false
+  },
+  "Queen Alia": {
+   "status": "inference_available",
+   "years": 20,
+   "slope_per_decade": 0.008203703057564722,
+   "ci_per_decade": [
+    -0.42525403025854674,
+    0.44166143637367616
+   ],
+   "p_value": 0.9576591684154246,
+   "significant": false,
+   "tested": true,
+   "notes": [],
+   "change_from_primary": -0.0710954964292994,
+   "influential": false
+  },
+  "Aqaba": {
+   "status": "inference_available",
+   "years": 20,
+   "slope_per_decade": 0.1798385367547466,
+   "ci_per_decade": [
+    -0.02456009214662814,
+    0.38423716565612137
+   ],
+   "p_value": 0.07349632518374082,
+   "significant": false,
+   "tested": true,
+   "notes": [],
+   "change_from_primary": 0.10053933726788247,
+   "influential": false
+  },
+  "King Hussein": {
+   "status": "descriptive_only",
+   "years": 20,
+   "slope_per_decade": 0.027148358809376626,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: residual dependence beyond lag 1 was detected, which the significance methods used here do not model.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "change_from_primary": -0.052150840677487494,
+   "influential": null
+  }
+ },
+ "S2_aqaba_split": {
+  "mean_2005_2017": 0.16771931253428035,
+  "mean_2018_2024": -0.31147872327794923,
+  "difference": -0.4791980358122296
+ },
+ "S3_power_monthly": {
+  "status": "inference_available",
+  "years": 20,
+  "slope_per_decade": 0.07021860502442112,
+  "ci_per_decade": [
+   -0.3059162446999191,
+   0.44635345474876137
+  ],
+  "p_value": 0.6431178441077946,
+  "significant": false,
+  "tested": true,
+  "notes": []
+ },
+ "S4_ghcnm": {
+  "qcu": {
+   "status": "descriptive_only",
+   "years": 18,
+   "slope_per_decade": 0.39056075693421505,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: require regular sampling (gaps are allowed for monthly data), a specified seasonal policy, and at least 15 observations.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "valid_months": {
+    "King Hussein": 228,
+    "Ma'an": 230,
+    "Ghor Safi": 209
+   }
+  },
+  "qcf": {
+   "status": "descriptive_only",
+   "years": 17,
+   "slope_per_decade": 0.35860539637380257,
+   "ci_per_decade": null,
+   "p_value": null,
+   "significant": null,
+   "tested": false,
+   "notes": [
+    "Inference withheld: require regular sampling (gaps are allowed for monthly data), a specified seasonal policy, and at least 15 observations.",
+    "Inference withheld: the annual test could not be carried out."
+   ],
+   "valid_months": {
+    "King Hussein": 228,
+    "Ma'an": 210,
+    "Ghor Safi": 209
+   }
+  }
+ }
+}
